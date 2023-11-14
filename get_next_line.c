@@ -11,8 +11,6 @@
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-#include <unistd.h>
-#include <stdlib.h>
 
 static int	read_and_handle(int fd, char *buffer, int *buffer1, char **line)
 {
